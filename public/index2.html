@@ -46,7 +46,7 @@
 
         // Only Allow 5 Tweets To Be Displayed At Once
         if (count >= 5) {
-            tweetStream.getElementsByClassName('tweet')[0].remove();
+            tweetStream.getElementsByClassName('tweet')[count-1].remove();
         }
 
 
@@ -73,10 +73,10 @@
             </div>
         `
 
-        tweetStream.appendChild(tweetEl)
+        tweetStream.prepend(tweetEl)
         
-        // Remove Old Tweets
-        // setTimeout(() => tweetEl.remove(), 5000)
+        // Remove Tweets After 15 Seconds
+        setTimeout(() => tweetEl.remove(), 15000)
       })
     </script>
   </body>

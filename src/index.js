@@ -88,7 +88,6 @@ function streamTweets(socket) {
     try {
       const json = JSON.parse(data)
       console.log("New Tweet Found!")
-      console.log(json)
       socket.emit('tweet', json)
     } catch (error) {}
   })

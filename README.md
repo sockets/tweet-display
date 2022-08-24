@@ -3,7 +3,7 @@ Tracks and displays recent filtered tweets to a webpage which can easily be disp
 
 ## Screenshots
 
-![Preview](https://i.imgur.com/xM1DjwH.png)
+![Preview](https://i.imgur.com/YRQHk3m.jpeg)
 
 ## Installment
 
